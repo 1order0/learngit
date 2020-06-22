@@ -1,0 +1,64 @@
+
+mkdir learngit //新建库
+cd learngit //打开库
+cat file.txt //查看文件
+ls //当前目录
+pwd //路径
+git init //git初始化
+git add file.txt
+git commit -m "文件描述"
+git status // 仓库当前状态
+git diff file.txt //查看文件修改
+git log //提交日志
+git log --pretty=oneline //简略提交日志
+git remote add origin git@github.com:michaelliao/learngit.git //本地关联远程库
+git clone git@github.com:1order0/gitskills.git
+git reset --hard HEAD^ //回退上一版本
+
+git reflog // 记录每一次命令
+
+git checkout -- readme.txt //弃工作区的修改
+
+git reset HEAD readme.txt //暂存区的修改撤销
+
+git checkout //丢弃工作区的修改
+
+rm test.txt //删除了文件
+
+ssh-keygen -t rsa -C "youremail@example.com" //创建SSH Key
+
+git remote add origin git@github.com:michaelliao/learngit.git // 地仓库的内容推送到GitHub仓库
+
+git push -u origin master  // 本地库的所有内容推送到远程库
+
+git push origin master //内容推送到远程库
+
+git checkout -b dev //创建dev分支
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
